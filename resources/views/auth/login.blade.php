@@ -11,8 +11,8 @@
     @endif
 </div>
 
-
 <form action="/login" method="POST">
+    @csrf
     <div>
         <label for="email">Email</label>
         <input type="text" name="email">
